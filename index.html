@@ -1,13 +1,51 @@
 <!DOCTYPE HTML>
 <head>
     <title>Arrokoth!</title>
+    <meta charset="UTF-8">
+    <link href="assets/halfmoon-1.1.1/css/halfmoon-variables.min.css" rel="stylesheet"/>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>There is nothing here :(</h1>
-    <h1>ur sus</h1>
-    <style>
-        body {
-            background-color: red;
-        }
-    </style>
+<div class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom with-custom-webkit-scrollbars with-custom-css-scrollbars with-transitions"
+     data-sidebar-hidden="hidden" data-sidebar-type="overlayed-sm-and-down">
+    <div class="sticky-alerts"></div>
+    <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+                <i class="fa fa-bars"></i>
+                <span class="sr-only">Toggle sidebar</span>
+            </button>
+        </div>
+        <a class="navbar-brand">Arrokoth</a>
+        <div class="navbar-content ml-auto">
+            <button class="btn btn-action" type="button" onclick="halfmoon.toggleDarkMode()">
+                <i class="fa fa-moon-o"></i>
+                <span class="sr-only">Toggle dark mode</span>
+            </button>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <a class="sidebar-link sidebar-link-with-icon" href="/">
+            <span class="sidebar-icon">
+                <i class="fa fa-home"></i>
+            </span>Index
+        </a>
+    </div>
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <div class="content">
+                <div class="mw-full">
+                    <div class="card p-0">
+                        <div class="px-card border-bottom py-10"><h2 class="card-title font-size-18 m-0">There is nothing here :(</h2>
+                        </div>
+                        <div class="content"><p>ur sus</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-fixed-bottom"><span class="navbar-text">© Copyright 2022, Arrokoth</span></div>
+</div>
+<script type="text/javascript" src="assets/halfmoon-1.1.1/js/halfmoon.min.js"></script>
 </body>
